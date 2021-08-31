@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import path from "path";
 import reactRefresh from '@vitejs/plugin-react-refresh'
+import checker from 'vite-plugin-checker'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,5 +13,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
-  plugins: [reactRefresh()]
+  plugins: [reactRefresh(), checker({ typescript: true })]
 })
