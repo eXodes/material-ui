@@ -28,8 +28,7 @@ function App() {
 
           <Image src={logo} alt="logo" sx={{
             animation: allowMotion ? 'spin infinite 20s linear' : ''
-          }} 
-          />
+          }} />
 
           <Box sx={{
             display: 'flex',
@@ -41,7 +40,7 @@ function App() {
 
           <Box>
             <Button variant="contained" disableElevation type="button" onClick={() => setCount((count) => count + 1)}>
-              count is: {count}
+              count is: <span data-testid="count">{count}</span>
             </Button>
           </Box>
 
