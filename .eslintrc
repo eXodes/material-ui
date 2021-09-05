@@ -29,6 +29,15 @@
         "@typescript-eslint",
         "jsx-a11y"
     ],
+    "overrides": [
+        {
+            "files": ["*.mdx"],
+            "extends": "plugin:mdx/recommended",
+            "settings": {
+                "mdx/code-blocks": true
+            }
+        }
+    ],
     "ignorePatterns": [
         "node_modules",
         "dist"
