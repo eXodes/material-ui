@@ -8,7 +8,7 @@
   "htmlWhitespaceSensitivity": "css",
   "endOfLine": "lf",
   "useTabs": false,
-  "printWidth": 120,
+  "printWidth": 80,
   "quoteProps": "consistent",
   "arrowParens": "always",
   "jsxBracketSameLine": false,
