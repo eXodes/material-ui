@@ -4,6 +4,7 @@ import "@/index.css";
 import App from "@/App";
 import { CssBaseline } from "@material-ui/core";
 import { isProduction } from "@/helpers";
+import ThemeProvider from "@/contexts/theme";
 
 if (!isProduction(process.env.NODE_ENV!)) {
     import("@axe-core/react").then((axe) =>
@@ -13,9 +14,11 @@ if (!isProduction(process.env.NODE_ENV!)) {
 
 render(
     <StrictMode>
-        <CssBaseline>
-            <App />
-        </CssBaseline>
+        <ThemeProvider>
+            <CssBaseline>
+                <App />
+            </CssBaseline>
+        </ThemeProvider>
     </StrictMode>,
     document.getElementById("root"),
 );
