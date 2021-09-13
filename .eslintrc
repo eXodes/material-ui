@@ -43,13 +43,15 @@
         "dist"
     ],
     "rules": {
+        "prefer-const": "error",
+        "no-console": ["error", { "allow": ["warn", "error"] }],
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/ban-types": "off",
         "react/jsx-uses-react": "off",
-        "react/react-in-jsx-scope": "off",
-        "@typescript-eslint/ban-types": "off"
+        "react/react-in-jsx-scope": "off"
     }
 }
