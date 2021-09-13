@@ -27,7 +27,7 @@ jobs:
 
     check-build:
         needs:
-            - run-linter
+            - check-linter
         name: Build
         runs-on: ubuntu-18.04
         steps:
