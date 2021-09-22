@@ -1,5 +1,5 @@
 import { createContext, FC, ReactNode } from "react";
-import { PaletteMode, Theme } from "@material-ui/core";
+import { PaletteMode, Theme } from "@mui/material";
 import { useDarkMode } from "@/hooks/utils/useDarkMode";
 import { THEME_MODE } from "@/constants/theme";
 

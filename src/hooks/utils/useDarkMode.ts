@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { createTheme, PaletteMode, useMediaQuery } from "@material-ui/core";
+import { createTheme, PaletteMode, useMediaQuery } from "@mui/material";
 import { useLocalStorage } from "react-use";
 import { getPaletteTokens } from "@/helpers/theme";
 import { THEME_KEY, THEME_MODE } from "@/constants/theme";

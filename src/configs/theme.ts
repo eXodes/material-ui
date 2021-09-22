@@ -1,4 +1,4 @@
-import { PaletteOptions } from "@material-ui/core/";
+import { PaletteOptions } from "@mui/material/";
 
 export const lightOptions: PaletteOptions = {
     primary: {

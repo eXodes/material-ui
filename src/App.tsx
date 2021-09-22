@@ -13,7 +13,7 @@ import {
     ThemeProvider,
     Typography,
     useMediaQuery,
-} from "@material-ui/core";
+} from "@mui/material";
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 import { ThemeContext } from "@/contexts/theme";
 import { THEME_MODE } from "@/constants/theme";

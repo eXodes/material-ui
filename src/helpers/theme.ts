@@ -1,4 +1,4 @@
-import { PaletteMode } from "@material-ui/core";
+import { PaletteMode } from "@mui/material";
 import { darkOptions, lightOptions } from "@/configs/theme";
 import { THEME_MODE } from "@/constants/theme";
 
