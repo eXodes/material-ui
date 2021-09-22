@@ -11,6 +11,6 @@
   "printWidth": 80,
   "quoteProps": "consistent",
   "arrowParens": "always",
-  "jsxBracketSameLine": false,
+  "bracketSameLine": false,
   "jsxSingleQuote": false
 }
